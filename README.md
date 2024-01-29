@@ -15,5 +15,5 @@ Simply put - a gel that conducts electricity. You can use it to link two things 
 - A *Catcher* is what outputs the gel's electricity. It has on/off outputs that turn on if the gel connected to it is excited.
 
 Besides that it also kills turrets when energized (doesn't affect players). Take a look!
-https://cdn.discordapp.com/attachments/876207882620784660/1201463022036733972/2024-01-29_10-42-46.mp4
+![image](https://cdn.discordapp.com/attachments/876207882620784660/1201463022036733972/2024-01-29_10-42-46.mp4)
 
