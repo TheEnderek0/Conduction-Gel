@@ -1,0 +1,230 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9495"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(25.6498 -282.918 170.734)"
+			"angle" "[21.6 355.6 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "trigger_multiple"
+	"filtername" "filter"
+	"origin" "0 -0 -20"
+	"solid" "6"
+	"spawnflags" "4104"
+	"startdisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "@cg_scriptRunScriptCodeTrackEntity(activator,false)0-1"
+	}
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "1"
+			"plane" "(-64 64 24) (64 64 24) (64 -64 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 24"
+				"point" "1 64 64 24"
+				"point" "2 64 -64 24"
+				"point" "3 -64 -64 24"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-64 -64 -64) (64 -64 -64) (64 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -64"
+				"point" "1 64 -64 -64"
+				"point" "2 64 64 -64"
+				"point" "3 -64 64 -64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-64 64 24) (-64 -64 24) (-64 -64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 24"
+				"point" "1 -64 -64 24"
+				"point" "2 -64 -64 -64"
+				"point" "3 -64 64 -64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(64 64 -64) (64 -64 -64) (64 -64 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -64"
+				"point" "1 64 -64 -64"
+				"point" "2 64 -64 24"
+				"point" "3 64 64 24"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(64 64 24) (-64 64 24) (-64 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 24"
+				"point" "1 -64 64 24"
+				"point" "2 -64 64 -64"
+				"point" "3 64 64 -64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 24)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -64"
+				"point" "1 -64 -64 -64"
+				"point" "2 -64 -64 24"
+				"point" "3 64 -64 24"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "prop_paint_bomb"
+	"negated" "0"
+	"passcallerwhentested" "0"
+	"targetname" "filter"
+	"origin" "0 -14.0767 48"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

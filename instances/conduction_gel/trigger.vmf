@@ -1,0 +1,244 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9348"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(17.9049 -340.419 195.446)"
+			"angle" "[28.4 1.19966 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-1.51413 12.0489 16384)"
+			"zoom" "3.85176"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(17.5022 -16384 11.6409)"
+			"zoom" "5.54653"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "4"
+	"classname" "trigger_multiple"
+	"filtername" "filter"
+	"origin" "0 0 0"
+	"solid" "6"
+	"spawnflags" "4104"
+	"startdisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "@cg_scriptRunScriptCodeTrackEntity(activator,$type)0-1"
+	}
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-64 64 64) (64 64 64) (64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 64"
+				"point" "1 64 64 64"
+				"point" "2 64 -64 64"
+				"point" "3 -64 -64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-64 -64 -64) (64 -64 -64) (64 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -64"
+				"point" "1 64 -64 -64"
+				"point" "2 64 64 -64"
+				"point" "3 -64 64 -64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-64 64 64) (-64 -64 64) (-64 -64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 64"
+				"point" "1 -64 -64 64"
+				"point" "2 -64 -64 -64"
+				"point" "3 -64 64 -64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(64 64 -64) (64 -64 -64) (64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -64"
+				"point" "1 64 -64 -64"
+				"point" "2 64 -64 64"
+				"point" "3 64 64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(64 64 64) (-64 64 64) (-64 64 -64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 64"
+				"point" "1 -64 64 64"
+				"point" "2 -64 64 -64"
+				"point" "3 64 64 -64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 64)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -64"
+				"point" "1 -64 -64 -64"
+				"point" "2 -64 -64 64"
+				"point" "3 64 -64 64"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "30"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "prop_paint_bomb"
+	"negated" "0"
+	"passcallerwhentested" "0"
+	"targetname" "filter"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "78"
+	"classname" "func_instance_parms"
+	"parm1" "$type boolean true"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

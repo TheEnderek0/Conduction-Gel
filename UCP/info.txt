@@ -1,0 +1,60 @@
+"ID"		"CONDUCTION_GEL"
+"Name"		"Conduction Gel"
+"Desc"      "Includes:
+- Conduction gel
+Do not redistribute."
+
+"Prerequisites"
+	{
+	"Package"	"VALVE_TEST_ELEM"
+	}
+
+"Item"
+	{
+	"ID"       "ITEM_CONDUCTION_PAINT_SPLAT"
+	"Description"
+		{
+		"" "The dropper can be deleted to make pre-placed gel splats."
+		"" ""
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"gel"
+			}
+		}
+	}
+	"Item"
+	{
+	"ID"       "ITEM_CONDUCTION_CATCHER"
+	"Description"
+		{
+		"" "Can catch energy transmitted via the conduction gel."
+		"" ""
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"connection_catcher"
+			}
+		}
+	}
+
+	"Item"
+	{
+	"ID"       "ITEM_CONDUCTION_EMITTER"
+	"Description"
+		{
+		"" "Can energize the gel."
+		"" ""
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"	"connection_emitter"
+			}
+		}
+	}

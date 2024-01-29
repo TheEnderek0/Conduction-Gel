@@ -1,0 +1,11 @@
+"Properties"
+	{
+	"Authors"		"Enderek0"
+	"Tags"			"Portal 2; Test Elements; Gel; Shaft 06"
+	"infoURL"		"https:/\/www.google.com"
+	"Ent_Count"     "N/A"
+	"Icon"
+		{
+			"0"		"clean/conduction_catcher.png"
+		}
+	}

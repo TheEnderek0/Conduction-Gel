@@ -1,0 +1,124 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9495"
+	"mapversion" "18"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(72.9304 -80.411 37.8192)"
+			"angle" "[38.4 320.401 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(4.06763 5.6746 65536)"
+			"zoom" "4.62211"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "18"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "67"
+	"classname" "logic_auto"
+	"angles" "90 0 0"
+	"spawnflags" "1"
+	"targetname" "@pre_paint_sprayer_auto"
+	connections
+	{
+		"OnUser1" "pipebombFireUser10-1"
+	}
+	"origin" "0 0 -48"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_paint_bomb"
+	"allowfunnel" "1"
+	"allowsilentdissolve" "0"
+	"angles" "90 0 0"
+	"body" "0"
+	"bombtype" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"fadescale" "1"
+	"model" "models/error.mdl"
+	"PaintType" "1"
+	"playspawnsound" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"shadowcastdist" "0"
+	"skin" "1"
+	"solid" "6"
+	"targetname" "pipebomb"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnUser1" "@cg_scriptRunScriptCodeTrackEntity(caller, true)0-1"
+	}
+	"origin" "0 0 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
