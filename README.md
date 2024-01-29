@@ -8,7 +8,6 @@ You can though, make pull requests to fix issues, or report them. I might someti
 1. This isn't a proper implementation, it was supposed to be a placeholder for when the new scripting engine in P2CE gets introduced. This means that although it works very well (I'd say), expect that sometimes a bug can happen here or there.
 2. This relies on Reflection Gel, meaning that the conduction gel will behave exactly like reflection gel e.g. reflecting lasers. And this also means you cannot use reflection gel in the same map!
 3. Provided in this repository is a UCP made for BEE2 version 43. However, it won't work in Portal 2. This gel needs P2CE as it uses P2CE-specific vscript functions. That UCP is meant to be used with my [Puzzlemaker Export Script](https://github.com/TheEnderek0/PuzzleExporter).
-
 # What is the ***CONDUCTION GEL***
 Simply put - a gel that conducts electricity. You can use it to link two things together which are Emitter and Catcher.
 - An *Emitter* is what excites the gel and makes it energetic. It can receive inputs to turn on and off.
@@ -18,3 +17,4 @@ Besides that it also kills turrets when energized (doesn't affect players).
 
 # Well cool and all but how do I use it?
 Check out our Wiki to help you setup the gel / use the UCP.
+If you aren't an expert on mapping you can use P2's puzzlemaker to design puzzles with it, however you will still need to export that map for P2CE (Check the linked export script above). This also means that all limitations of the Puzzlemaker Export script apply here too.
