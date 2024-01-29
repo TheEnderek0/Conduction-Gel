@@ -16,3 +16,5 @@ Simply put - a gel that conducts electricity. You can use it to link two things 
 
 Besides that it also kills turrets when energized (doesn't affect players).
 
+# Well cool and all but how do I use it?
+Check out our Wiki to help you setup the gel / use the UCP.
