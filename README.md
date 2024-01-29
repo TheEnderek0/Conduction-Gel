@@ -14,4 +14,6 @@ Simply put - a gel that conducts electricity. You can use it to link two things 
 - An *Emitter* is what excites the gel and makes it energetic. It can receive inputs to turn on and off.
 - A *Catcher* is what outputs the gel's electricity. It has on/off outputs that turn on if the gel connected to it is excited.
 
-Besides that it also kills turrets when energized (doesn't affect players).
+Besides that it also kills turrets when energized (doesn't affect players). Take a look!
+https://cdn.discordapp.com/attachments/876207882620784660/1201463022036733972/2024-01-29_10-42-46.mp4?ex=65c9e8a2&is=65b773a2&hm=5560c1c71a8b27be3a213ef7d33e0bae26450e80e93dcf2ac86725b6853715b6&
+
