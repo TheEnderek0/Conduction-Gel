@@ -1,6 +1,12 @@
 # Conduction-Gel
 Repository for the Conduction Gel project, made originally for Shaft 06
 
+
+https://github.com/TheEnderek0/Conduction-Gel/assets/67070613/ebebdb4d-e0a7-4aec-8c66-e2814e0a591f
+
+
+
+
 ## Warning: This code as well as assets are provided as is, meaning that errors won't likely be fixed.
 You can though, make pull requests to fix issues, or report them. I might sometimes check to see if everything's working.
 
@@ -18,3 +24,4 @@ Besides that it also kills turrets when energized (doesn't affect players).
 
 # Well cool and all but how do I use it?
 Check out our Wiki to help you setup the gel / use the UCP.
+
